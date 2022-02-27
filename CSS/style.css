@@ -1,0 +1,194 @@
+
+body {
+  font: 15px/1.5 'Garamond', serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+  background:url('../Img/Toren.jpg') 0px 0px fixed;
+  background-size: cover;
+}
+
+/* Global */
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin:0;
+  padding:0;
+}
+
+/* Header */
+header{
+  background-color: #f4f4f4;
+  min-height: 70px;
+  padding-top: 30px;
+  border-bottom: DodgerBlue 3px solid;
+}
+
+header #organisatie h1{
+  float:left;
+  font: bold 45px monospace;
+  color: GoldenRod;
+  text-shadow: 1px 1px 3px MidnightBlue;
+  margin: 0;
+}
+
+Header #Logo {
+  position: absolute;
+  left: 43%;
+  height: 110px;
+  border: DodgerBlue 3px solid;
+}
+
+header #social_media {
+  margin: 10px 20px 0 0;
+  float:right;
+}
+
+header #social_media img {
+  width: 20px;
+  height: auto;
+}
+
+header #social_media li{
+  display:inline;
+  padding: 0 10px 0 10px;
+}
+
+/* Showcase */
+#showcase{
+  min-height: 400px;
+  background:url('../Img/Schiphol1.jpg') 0 -100px no-repeat;
+  background-size:cover;
+  color: MidnightBlue;
+  text-shadow: 3px 3px 7px LightSlateGray;
+  text-align:center;
+  border-bottom:DodgerBlue 3px solid;
+}
+
+#showcase h1 {
+  font: 75px 'Cormorant SC', serif;
+}
+
+#showcase h2{
+  font-size: 30px;
+  text-decoration: underline;
+  margin-top: -5px
+}
+
+/* Nav */
+
+nav {
+  background-color: MidnightBlue
+  overflow:hidden;
+}
+
+nav a {
+  float: left;
+  width: 16.66%;
+  background-color: MidnightBlue;
+  font: 18px 'Cormorant SC', serif;
+  color: GoldenRod;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 0;
+  border-bottom: DodgerBlue 3px solid;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:70%;
+}
+
+article h1 {
+  font-size:50px;
+}
+
+article img#fokker{
+  height: auto;
+  width: 90%;
+}
+
+/* Sidebar */
+aside#sidebar {
+  box-sizing: border-box;
+  float:right;
+  width:25%;
+  background-color: DodgerBlue;
+  margin-top: 300px;
+  padding: 0px 20px;
+}
+
+aside h1{
+  font-size: 25px;
+}
+
+aside img#luna {
+  height: auto;
+  width: 90%;
+  margin-left:10px;
+}
+
+footer{
+  color:#ffffff;
+  background-color:MidnightBlue;
+  text-align: center;
+  margin-top:20px;
+  padding:20px;
+  border-top:GoldenRod 3px solid;
+  border-bottom:GoldenRod 3px solid;
+}
+
+/* Media Queries */
+@media(max-width: 1050px){
+  #showcase{
+    background:url('../Img/Schiphol2.jpg') no-repeat center;
+    background-size: cover
+  }
+    Header #Logo {
+      display: none;
+  }
+}
+
+@media(max-width: 768px){
+
+  body {
+    background:url('../Img/Toren.jpg') -300px 0px fixed;
+  }
+
+  header #organisatie h1,
+  header #social_media,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  nav a {
+    display: block;
+    width: 100%
+
+  }
+
+  #showcase h1{
+    font-size: 55px;
+  }
+  #showcase h2{
+      font-size: 20px;
+      margin-top: 0px
+  }
+
+  aside#sidebar {
+    margin-top: 50px;
+
+}

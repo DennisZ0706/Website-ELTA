@@ -1,0 +1,16 @@
+Opdracht: Website
+
+Maak in een editor naar keuze een eenvoudige HTML 5 website die qua opzet ongeveer overeenkomt met
+bovenstaand voorbeeld. Wel mag je gerust afwijken voor wat betreft kleurstelling en afbeelding. Het hoeft
+ook niet specifiek over groene elektrische autootjes te gaan. Bedenk daarom zelf een leuk thema en een 
+bijpassend logo.
+
+Voor de menu-Links geldt dat deze in een afzonderlijk tabblad dienen te worden geopend. Zorg er wel voor
+dat op elke pagina een stukje "dummy tekst" komt te staan plus eventueel een afbeelding.
+
+Bedenk verder zelf een (pakkende) titel en een mooi logo voor de website.
+
+In elke pagina die je maakt dien je iets te vertellen wat bij de desbetreffende pagina hoort. Zoals bij "Over
+mij" vertel je iets over je zelf, of zet je daar eventueel je cv op.
+
+ 
